@@ -1,0 +1,203 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+
+
+.painel { 
+    width: 101%;
+    padding: 60px;
+    display: flex;
+    justify-content:space-between;
+    font-size: 300%  ;
+    background-color: rgb(193, 230, 233);
+    font-family: Verdana, Arial, sans-serif;
+  
+}
+ .caixa01{
+    width:fit-content;
+    height: auto;
+    display:inline-flex;
+    background-color: rgb(193, 230, 233);
+}
+.caixa02{
+    
+    width:fit-content;
+    height: 70px ;
+    padding-left: 83%;
+    background-color: rgb(193, 230, 233);
+}
+.img01{
+    box-sizing: contain;
+    height: 1em;
+    margin-left: 15px
+}
+
+.img02{
+    width: 70px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    height:13vh;
+    font-size:220%;
+    align-items: center;
+    background-size: border-box;
+    background: linear-gradient( rgb(18, 160, 255), rgb(98, 202, 206));    
+    
+}
+.menu a{
+    text-decoration:none;
+    color:black;
+    font-family: Verdana, Arial, sans-serif;
+    transition: all 0.2s;
+}
+.menu a:hover{
+    transform: scale(1.05);
+}
+.menu div{
+
+    background: linear-gradient(rgb rgb(0, 255, 55), rgb red);
+}
+.corpo-pagina{
+   display: flex;
+   justify-content: center;
+   width: 100vw;
+   height:110.7vh;
+   padding-bottom: 0 auto;
+   padding-top: 5%;
+   background: linear-gradient(rgb(193, 230, 233), rgb(124, 252, 156));     
+}
+
+.caixa05{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 80.3vw;
+    height:100vh;
+    background-image: url("./imagens/ChatGPT\ Image\ 21\ de\ mai.\ de\ 2026\,\ 19_56_36.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.algebra{
+    font-size:150%;
+    position: absolute;
+    left: 28%;
+    top: 33.5%; 
+    font-family: Verdana, Arial, sans-serif;  
+    
+    
+}
+ .img03{
+    transition: all 0.3s;
+    width: 13%;
+    
+    position: absolute;
+    left: 26%;
+    top: 10%;     
+
+ }
+.img03:hover{
+     transform: scale(1.08);
+     ;
+}
+
+.teoriaNumeros{
+    font-size:150%;
+    position: absolute;
+    left: 55%;
+    top: 33.5%; 
+     font-family: Verdana, Arial, sans-serif;  
+}
+ .img04{
+    transition: all 0.3s;
+    width: 13%;
+    position: absolute;
+    left: 60%;
+    top: 10%;     
+
+ }
+.img04:hover{
+     transform: scale(1.08);
+     
+}
+.combinatoria{
+    font-size:140%;
+    position: absolute;
+    left: 24.7%;
+    top: 74%; 
+    font-family: Verdana, Arial, sans-serif;  
+    text-align: center;
+}
+
+ .img05{
+    transition: all 0.3s;
+    width: 13%;
+    position: absolute;
+    left: 26%;
+    top: 50%;     
+
+ }
+ .img05:hover{
+    transform: scale(1.08);
+ }
+
+ .geometria{
+
+    font-size:140%;
+    position: absolute;
+    left: 60.5%;
+    top: 74%; 
+    font-family: Verdana, Arial, sans-serif;  
+    text-align: center;    
+
+ }
+ .img06{
+    transition: all 0.3s;
+    width: 13%;
+    position: absolute;
+    left: 60%;
+    top: 50%;     
+
+ }
+ .img06:hover{
+    transform: scale(1.08);
+
+ }
+
+.sobreNos h1{
+    text-align:center;
+    padding: 5%;
+    font-size: 270%;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+}
+.sobreNos p{
+    font-size: 160%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 8%;
+    font-family: Verdana, Arial, sans-serif;
+    word-spacing: 5px;
+    line-height: 1.6;
+
+    
+
+}
+.sobreNos div{
+    padding-bottom: 10% ;
+}
+.rodape {
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(118, 255, 198);
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 100%;
+}
