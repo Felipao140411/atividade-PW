@@ -8,7 +8,7 @@
 
 
 .painel { 
-    width: 101%;
+    width: 100%;
     padding: 60px;
     display: flex;
     justify-content:space-between;
@@ -44,7 +44,7 @@
 .menu{
     display: flex;
     justify-content: space-around;
-    width: 100vw;
+    width: 99.06vw;
     height:13vh;
     font-size:220%;
     align-items: center;
