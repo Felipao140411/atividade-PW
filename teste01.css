@@ -27,7 +27,8 @@
     
     width:fit-content;
     height: 70px ;
-    padding-left: 83%;
+    position: absolute;
+    left: 93%;
     background-color: rgb(193, 230, 233);
 }
 .img01{
