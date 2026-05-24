@@ -8,7 +8,7 @@
 
 
 .painel { 
-    width: 100%;
+    width: 100vw;
     padding: 60px;
     display: flex;
     justify-content:space-between;
